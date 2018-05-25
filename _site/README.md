@@ -10,5 +10,5 @@ tk 域名：[https://smallyellowbook.tk/](https://smallyellowbook.tk/)
 ~~Coding 的托管当一个镜像站好了，链接：[https://smallyellowbook.coding.me/](https://smallyellowbook.coding.me/)~~  
 ## 任务  
  - [x] 封面问题（放了没有 R18 场景时的本子内容）  
+ - [x] 放压缩包下载链接（直链有 Token 放了也没用，所以只放了种子链接）  
  - [ ] 更新存货  
- - [ ] 放压缩包下载链接
