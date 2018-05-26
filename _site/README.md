@@ -1,3 +1,7 @@
+<a href="https://discord.gg/J9r8748" target="discord">
+  <img src="https://discordapp.com/api/guilds/440159371859722240/widget.png?style=banner2">
+</a>
+
 # 小黄书 项目（重制）  
 ## 概述  
 之前也使用这个帐号开了个高分本子分享站  
