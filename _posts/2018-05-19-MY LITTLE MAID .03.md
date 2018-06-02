@@ -28,5 +28,6 @@ tags:  原创 兽耳 纯爱
 原链接：  
 [https://exhentai.org/g/1042824/95c01e5c98/](https://exhentai.org/g/1042824/95c01e5c98/)  
 
-种子下载：暂无  
+出现熊猫图的话，请看这篇帖子：  
+[http://blog.dimpurr.com/ex-hentai/](http://blog.dimpurr.com/ex-hentai/)  
 
