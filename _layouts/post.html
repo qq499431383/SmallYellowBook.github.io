@@ -8,7 +8,10 @@
 <![endif]-->
   <input id="nm-switch" type="hidden" value="{{ site.nightMode }}"> {% include header.html %}
 
-  <header class="g-banner post-header {{ site.postPatterns | prepend: 'post-pattern-' }} {{ site.theme-color | prepend: 'bgcolor-' }} {% unless page.cover %}post-no-cover{% endunless %}" data-theme="{{ site.theme-color }}">
+  <header
+    class="g-banner post-header {{ site.postPatterns | prepend: 'post-pattern-' }} {{ site.theme-color | prepend: 'bgcolor-' }} {% unless page.cover %}post-no-cover{% endunless %}"
+    data-theme="{{ site.theme-color }}"
+  >
     <div class="post-wrapper">
       <div class="post-tags">
         {% if page.tags.size > 0 %}
@@ -95,9 +98,11 @@
       </div>
       {% endif %}
     </section>
+    {% if site.comments.disqus %}
     <section class="post-footer-item comment">
-      <div id="disqus_thread"></div>
+        <div id="disqus_thread"></div>
     </section>
+    {% endif %}
   </section>
 
   {% include footer.html %}
@@ -117,8 +122,8 @@
     });
   </script>
 
+  {% if site.comments.disqus %}
   <script>
-    {% if site.comments.disqus %}
     /**
      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
@@ -129,15 +134,13 @@
     };
     */
     (function() { // DON'T EDIT BELOW THIS LINE
-      var d = document,
-        s = d.createElement('script');
-      s.src = '{{ site.comments.disqus_url }}';
+      var d = document, s = d.createElement('script');
+      s.src = 'https://liaokeyu.disqus.com/embed.js';
       s.setAttribute('data-timestamp', +new Date());
-
       (d.head || d.body).appendChild(s);
     })();
-    {% endif %}
   </script>
+  {% endif %}
 
   <script src="/assets/js/prism.js"></script>
   <script src="/assets/js/index.min.js"></script>
