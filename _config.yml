@@ -34,7 +34,7 @@ comments:
   disqus_url: ''
 
 # MathJax 公式支持 by Ray-Eldath
-mathjax: true
+mathjax: false
 
 # Share
 social-share: false
@@ -73,7 +73,7 @@ RSS: false
 # See: https://github.com/kaeyleo/jekyll-theme-H2O/issues/35
 permalink: /:year/:month/:day/:title.html
 
-# Plugins_dir
+#plugins_dir
 plugins_dir: [jekyll-paginate]
 
 #gems
