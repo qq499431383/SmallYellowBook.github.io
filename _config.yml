@@ -76,5 +76,5 @@ permalink: /:year/:month/:day/:title.html
 #plugins_dir
 plugins_dir: [jekyll-paginate]
 
-#gems
-gems: [jekyll-paginate]
+#plugins
+plugins: [jekyll-paginate]
